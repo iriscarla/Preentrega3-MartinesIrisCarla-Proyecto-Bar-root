@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 16px;
+    box-sizing: border-box;
+    
+    
+}
+
+@import './components/header';
+@import './components/article';
+@import './components/main';
+@import './components/shop';
+@import './components/gallery';
+
+
+/*font
+font-family: 'EB Garamond', serif;
+font-family: 'Work Sans', sans-serif;
+
+
+*/

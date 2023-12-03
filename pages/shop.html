@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Boostrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!--google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@500&family=EB+Garamond:wght@600&display=swap"
+        rel="stylesheet">
+    <!--css-->
+    <link rel="stylesheet" href="../css/style.css">
+    <!--Js-->
+    <script defer src="../scripts/scripts.js"></script>
+    <script defer src="../scripts/productos.js"></script>
+
+
+    <title>Inicio | Rock and Beer </title>
+</head>
+
+<body id="shop-body">
+    <!--Header Section-->
+    <header id="index-header">
+        <div class="index-logo">
+
+            <img src="../images/logo.png" alt="">
+            <a href="../index.html"> </a>
+        </div>
+
+        <nav class="nav-barr">
+            <ul class="list">
+                <li>
+                    <a href="../index.html">Inicio</a>
+                </li>
+
+                <li>
+                    <a href="../index.html#container-main-description"> Quienes Somos</a>
+                </li>
+
+                <li>
+                    <a href="shop.html"> Shop</a>
+                </li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <!--Buscador y carrito-->
+    <section class="contenedor-busqueda-carrito">
+        <div class="buscador">
+            <form >
+                <input id="buscador" type="search" placeholder="Buscar por nombre">
+                <button type="button"> Buscar</button>
+            </form>
+        </div>
+
+        <div class="carrito">
+           <a href="carritoShop.html"><img class="carritoImg" src="../images/carrito.png" alt="carrito de supermercado" title="Ir al carrito"></a> 
+        </div>
+    </section>
+
+    <!--Contenedor de categorias y productos-->
+    <main id="main-container">
+       
+
+        <aside class="categorias">
+
+            <form class="category">
+                <label for="cevezas">Cervezas</label>
+                <input id="cevezas" type="radio" name="category" value="cervezas">
+
+                <label for="pizzas">Pizzas</label>
+                <input id="pizzas" type="radio" name="category" value="pizzas">
+
+                <label for="papas">Papas</label>
+                <input id="papas" type="radio" name="category" value="papas">
+
+                <button> Filtrar</button>
+            </form>
+
+        </aside>
+
+
+        <section id="divContenedor" class="contenedor-tarjetas contenedorTarjetas" >
+            <!--CARD DINÁMICAS CON JS-->
+        </section>
+
+
+    </main>
+   
+
+    <!--Boostrap scripts-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
